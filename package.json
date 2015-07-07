@@ -1,0 +1,19 @@
+{
+  "name": "poc-components",
+  "version": "1.0.0",
+  "description": "POC sur l'utilisation des components",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/plamoureux/poc-components"
+  },
+  "jspm": {
+    "main": "index",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {
+      "lodash": "npm:lodash@^3.9.3"
+    }
+  }
+}
